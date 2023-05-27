@@ -74,6 +74,8 @@ body {
 
 .hero__img_desk {
     padding-bottom: 104px;
+    width: 100%;
+    height: auto;
 }
 
 .introduction h1 {
@@ -138,9 +140,4 @@ body {
 .nav-item:hover {
     color: var(--text-color);
     transition: 500ms ease;
-}
-
-.hero__img_desk {
-    width: 100%;
-    height: auto;
 }

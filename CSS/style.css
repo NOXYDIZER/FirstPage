@@ -1,0 +1,141 @@
+body {
+    --bg-color: #fff;
+    --bg-secondary-color: #f6f6f6;
+    --text-color: #070707;
+    --text-secondary-color: #828282;
+    --separator-color: #828282;
+    --base-font-size: 18px;
+    --base-line-height: 22px;
+    --secondary-font-size: 14px;
+    --secondary-line-height: 17px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    max-width: 945px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--separator-color);
+}
+
+.main-header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.main-header ul a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    font-weight: bold;
+}
+
+.main-header ul a.nav-item--active {
+    color: var(--text-color);
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+}
+
+.row-alternative-color {
+    background-color: var(--bg-secondary-color);
+}
+
+.content-block {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.hero__img_desk {
+    padding-bottom: 104px;
+}
+
+.introduction h1 {
+   font-size: 47px;
+   line-height: 59px;
+}
+
+.introduction__info,
+.language-select {
+    margin-bottom: 40px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.skills__images {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: var(--secondary-font-size);
+    line-height: var(--secondary-line-height);
+    color: var(--text-secondary-color);
+}
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.skills__stars {
+    display: flex;
+    gap: 10px;
+}
+
+.skills__item-text {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 34px;
+}
+
+.skills__item:hover {
+    transition: 500ms ease;
+    box-shadow: 0 0 10px rgb(61, 60, 60);
+    border-radius: 5%;
+    transform: scale(110%);
+}
+
+.nav-item:hover {
+    color: var(--text-color);
+    transition: 500ms ease;
+}

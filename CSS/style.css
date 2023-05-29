@@ -199,3 +199,40 @@ transition: 700ms;
     transition: 500ms ease;
     transform: scale(105%);
 }
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+
+.contacts__item__block {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.contacts__item__block__links {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.contacts__item__block__links__images {
+    display: flex;
+    gap: 62px;
+    width: 100px;
+}
+
+.contacts__button {
+    color: #FFFFFF;
+    background-color: #070707;
+    padding: 10px 30px;
+}

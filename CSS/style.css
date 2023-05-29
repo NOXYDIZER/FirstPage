@@ -99,6 +99,10 @@ transition: 700ms;
     color: var(--text-secondary-color);
 }
 
+.introduction__info {
+    color: var(--text-color);
+}
+
 .language-select__item--active {
     font-weight: bold;
     color: var(--text-color);

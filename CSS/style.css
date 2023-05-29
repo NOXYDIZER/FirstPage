@@ -72,11 +72,21 @@ body {
     text-align: center;
 }
 
-.hero__img_desk {
+.hero__img {
     padding-bottom: 104px;
     width: 100%;
     height: auto;
 }
+
+.hero {
+    overflow: hidden;
+}
+
+.hero__img:hover {
+transform: scale(105%);
+transition: 700ms;    
+}
+
 
 .introduction h1 {
    font-size: 47px;

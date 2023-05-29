@@ -151,3 +151,51 @@ transition: 700ms;
     color: var(--text-color);
     transition: 500ms ease;
 }
+.portfolio__image {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__item__block__image {
+    overflow: hidden;
+}
+
+.portfolio__image:hover {
+    transform: scale(105%);
+    transition: 700ms;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.portfolio__item__block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.portfolio__item__block__text a {
+    color: var(--text-color);
+    padding: 5px;
+}
+
+.portfolio__item__block__text a:hover {
+    transition: 500ms ease;
+    box-shadow: 0 0 10px rgb(61, 60, 60);
+    border-radius: 10%;
+    transform: scale(105%);
+}
+
+.portfolio__item__block__text:hover {
+    transition: 500ms ease;
+    transform: scale(105%);
+}

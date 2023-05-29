@@ -96,6 +96,17 @@ transition: 700ms;
 .introduction__info,
 .language-select {
     margin-bottom: 40px;
+    color: var(--text-secondary-color);
+}
+
+.language-select__item--active {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.language-select {
+    margin-bottom: 65px;
+    transform: rotate(-90deg);
 }
 
 .about {
@@ -228,11 +239,29 @@ transition: 700ms;
 .contacts__item__block__links__images {
     display: flex;
     gap: 62px;
-    width: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts__button {
     color: #FFFFFF;
     background-color: #070707;
     padding: 10px 30px;
+    border-radius: 20% / 85%;
+}
+
+.contacts__button:hover {
+    border-radius: 0%;
+    transition: 700ms ease;
+}
+
+.contacts__item__block__links__social {
+    font-size: var(--secondary-font-size);
+    line-height: var(--secondary-line-height);
+    color: var(--text-secondary-color);
+}
+
+.contacts__item__block__links__social a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
 }

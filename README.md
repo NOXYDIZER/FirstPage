@@ -3,7 +3,7 @@
 
 Сайт написан на HTML/JS/CSS, без использования препроцессоров и сборки проекта.
 
-[Github Pages](https://github.com/NOXYDIZER/FirstPage/)
+[Github Pages](https://noxydizer.github.io/FirstPage/)
 
 ![Скриншот сайта](./redme_img.png)
 

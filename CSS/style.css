@@ -132,6 +132,10 @@ body {
     flex-direction: column;
 }
 
+.about__text__mobile {
+    display: none;
+}
+
 .skills {
     display: flex;
     flex-direction: column;
@@ -467,6 +471,15 @@ body {
 
     a.nav-item--active {
         color: var(--text-color);
+    }
+
+    .about__text {
+        display: none;
+    }
+
+    .about__text__mobile {
+        display: flex;
+        flex-direction: column;
     }
 }
 

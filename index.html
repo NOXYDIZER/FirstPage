@@ -14,6 +14,34 @@
 
 <body>
     <div class="row">
+        <div class="menu__mobile" style="display: none;">
+            <div class="menu__left">
+                <nav>
+                    <ul class="main-nav">
+                        <li><a class="nav-item--active" href="#">Home</a></li>
+                        <li><a class="nav-item" href="#about">About me</a></li>
+                        <li><a class="nav-item" href="#skills">Skills</a></li>
+                        <li><a class="nav-item" href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-item" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__right">
+                <button id="nav__menu__close" class="menu__button close__button">
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)"
+                            fill="#828282" />
+                        <rect x="0.831299" y="19.5566" width="27.3715" height="3.8"
+                            transform="rotate(-45 0.831299 19.5566)" fill="#828282" />
+                    </svg>
+                </button>
+                <div class="language-select__mobile">
+                    <div class="language-select__item"><a href="#ru">RU</a> <span
+                            class="language-select__item--active">| <a href="#en">EN</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="column">
             <header class="main-header">
                 <nav>
@@ -31,16 +59,29 @@
 
     <div class="row">
         <div class="column">
-            <div class="introduction">
-                <h1>Denis<br>Novik</h1>
-                <div class="introduction__info">
-                    UX | UI designer<br>
-                    24 years old, Minsk
+            <header class="header__mobile">
+                <div class="introduction">
+                    <h1>Denis<br>Novik</h1>
+                    <div class="introduction__info">
+                        UX | UI designer<br>
+                        24 years old, Minsk
+                    </div>
+                    <div class="language-select">
+                        <div class="language-select__item"><a href="#ru">RU</a> <span
+                                class="language-select__item--active">| <a href="#en">EN</a></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="language-select">
-                    <div class="language-select__item">RU <span class="language-select__item--active">| EN</span></div>
+                <div class="menu__burger">
+                    <button id="nav__menu__open" class="menu__button">
+                        <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="33" height="3.83721" fill="black" />
+                            <rect y="7.67383" width="33" height="3.83721" fill="black" />
+                            <rect y="15.3496" width="33" height="3.83721" fill="black" />
+                        </svg>
+                    </button>
                 </div>
-            </div>
+            </header>
             <div class="hero">
                 <img class="hero__img" src="./img/hero.jpg" width="945" height="388">
                 <img class="hero__img__mob" src="./img/hero_mob.jpg" width="317" height="478">
@@ -150,7 +191,8 @@
                 <div class="portfolio__gallary">
                     <div class="portfolio__item">
                         <div class="portfolio__item__image">
-                            <a href="#"><img class="portfolio__image" src="./img/fashion.svg" width="937" height="510"></a>
+                            <a href="#"><img class="portfolio__image" src="./img/fashion.svg" width="937"
+                                    height="510"></a>
                         </div>
                         <div class="portfolio__text">
                             <a href="#">Online fashion store - Homepage</a>
@@ -158,7 +200,8 @@
                     </div>
                     <div class="portfolio__item">
                         <div class="portfolio__item__image">
-                            <a href="#"><img class="portfolio__image" src="./img/reebok.svg" width="937" height="510"></a>
+                            <a href="#"><img class="portfolio__image" src="./img/reebok.svg" width="937"
+                                    height="510"></a>
                         </div>
                         <div class="portfolio__text">
                             <a href="#">Reebok Store - Concept</a>
@@ -166,7 +209,8 @@
                     </div>
                     <div class="portfolio__item">
                         <div class="portfolio__item__image">
-                            <a href="#"><img class="portfolio__image" src="./img/braun.jpg" width="937" height="510"></a>
+                            <a href="#"><img class="portfolio__image" src="./img/braun.jpg" width="937"
+                                    height="510"></a>
                         </div>
                         <div class="portfolio__text">
                             <a href="#">Braun Landing Page - Concept</a>
@@ -192,15 +236,21 @@
                     </div>
                     <div class="contacts__item__block__links">
                         <div class="contacts__item__block__links__images">
-                            <div class="contacts__image"><a href="#"><img src="./img/linkedln.jpg" width="41" height="41"></a></div>
-                            <div class="contacts__image"><a href="#"><img src="./img/instagramm.svg" width="41" height="41"></a></div>
-                            <div class="contacts__image"><a href="#"><img src="./img/behance.svg" width="41" height="41"></a></div>
-                            <div class="contacts__image"><a href="#"><img src="./img/dribble.svg" width="41" height="41"></a></div>
+                            <div class="contacts__image"><a href="#"><img src="./img/linkedln.jpg" width="41"
+                                        height="41"></a></div>
+                            <div class="contacts__image"><a href="#"><img src="./img/instagramm.svg" width="41"
+                                        height="41"></a></div>
+                            <div class="contacts__image"><a href="#"><img src="./img/behance.svg" width="41"
+                                        height="41"></a></div>
+                            <div class="contacts__image"><a href="#"><img src="./img/dribble.svg" width="41"
+                                        height="41"></a></div>
                         </div>
                         <div class="contacts__item__block__links__social">
                             Like me on<br>
-                            <a class="contacts__link" href="#">LinkedIn</a>, <a class="contacts__link" href="#">Instagram</a>, 
-                            <a class="contacts__link" href="#">Behance</a>, <a class="contacts__link" href="#">Dribble</a>
+                            <a class="contacts__link" href="#">LinkedIn</a>, <a class="contacts__link"
+                                href="#">Instagram</a>,
+                            <a class="contacts__link" href="#">Behance</a>, <a class="contacts__link"
+                                href="#">Dribble</a>
                         </div>
                     </div>
                 </div>
@@ -209,5 +259,21 @@
     </div>
     </div>
 </body>
+<script>
+    window.addEventListener("DOMContentLoaded", function(){
+        const navMenuButton = document.querySelector("#nav__menu__open");
+        navMenuButton.addEventListener("click", function(){
+            const menu = document.querySelector(".menu__mobile");
+            menu.style.display="";
+        });
+        window.addEventListener("click", function(event){
+            if(event.target.closest("#nav__menu__open")){
+                return;
+            }
+            const menu = document.querySelector(".menu__mobile");
+            menu.style.display="none";
+        });
 
+    });
+</script>
 </html>
